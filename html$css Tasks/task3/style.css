@@ -1,0 +1,48 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: crimson;
+      padding-right: 30px;
+      padding-left: 30px;
+}
+.navdiv{
+    display: flex; 
+    align-items: center;
+     justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+     font-weight: 600;
+      color: white;
+}
+li{
+    list-style: none;
+     display: inline-block;
+}
+li a{
+    color: white;
+     font-size: 20px;
+      font-weight: bold;
+       margin-right: 25px;
+}
+.image img{
+width: 50%;
+height: 50%;
+display: block;
+float: left;    
+}
+.grid-container{
+    width: 50%;
+    height: 50%;
+ float: right;
+padding: 200px 0 ;    
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+
+}
